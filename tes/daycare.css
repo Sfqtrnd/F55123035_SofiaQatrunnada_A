@@ -1,0 +1,270 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ebe3cc;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header {
+    color: #142e37;
+    text-align: center;
+}
+
+nav {
+    position: fixed;
+    background-color: #ebe3cc;
+    z-index: 1000;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    padding: 5px;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+nav ul li {
+    margin: 0 1em;
+}
+
+nav ul li a {
+    color: #142e37;
+    text-decoration: none;
+    padding: 0.5em 1em;
+    font-size: 14px;
+    font-weight: 550;
+}
+
+.pilihan {
+    justify-content: center;
+    text-align: center;
+    margin-left: 222px;
+    margin-right: 277px;
+    padding: 14px;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+nav ul li a.signup {
+    color: #ed5c01;
+    border: 2px solid #142e37;
+    border-radius: 14px;
+    margin-right: 153px;
+}
+
+nav ul li img {
+    height: 40px;
+    vertical-align: middle;
+    margin-left: 150px;
+}
+
+/* TOP SECTION */
+.top-section {
+    padding-top: 121px;
+    padding-bottom: 33px;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 33px;
+    font-weight: bold;
+    color: #2c2c54;
+}
+
+/* Content Section */
+.content {
+    display: flex;
+    justify-content: center;
+    gap: 88px;
+}
+
+.card {
+    border-radius: 44px;
+    overflow: hidden;
+    text-align: center;
+    width: 300px;
+}
+
+.card img.card-image {
+    width: 100%;
+    height: auto;
+}
+
+.card h3 {
+    margin: 15px 0;
+    font-size: 20px;
+    color: #ed5c01;
+}
+
+.card p {
+    font-size: 14px; 
+    color: #142e37;;
+    padding: 0 10px 20px;
+}
+
+.routine {
+    padding: 20px;
+    margin-top: 111px;
+    background-color: whitesmoke;
+}
+
+h2 {
+    margin-bottom: 20px;
+    font-size: 33px;
+    color: #ed5c01;
+    text-align: center;
+}
+
+.routine-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    position: relative;
+}
+
+/* Garis horizontal */
+.routine-wrapper::before,
+.routine-wrapper::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    width: 35%;
+    height: 1px;
+    background-color: #ed5c01;
+}
+
+.routine-wrapper::before {
+    left: 0;
+}
+
+.routine-wrapper::after {
+    right: 0;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+}
+
+.box {
+    padding-left: 33px;
+    padding-right: 66px;
+}
+
+.time {
+    font-weight: bold;
+    color: #ed5c01;
+    margin-bottom: 5px;
+    font-size: 18px;
+}
+
+.activity {
+    color: #142e37;
+    font-size: 16px;
+}
+
+.image-wrapper img {
+    width: 333px;
+    height: auto;
+    margin-right: 28px;
+}
+
+/* JOIN */
+#join {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 22px;
+    padding: 44px;
+}
+
+#join img {
+    width: 444px;
+    margin: 66px;
+    margin-top: 46px;
+    margin-left: 161px;
+}
+.join h2, .join p {
+    padding-top: 22px;
+    padding-right: 141px;
+}
+
+.join .booknow { 
+    border: 2px solid #142e37;
+    border-radius: 14px;
+    padding: 5px 10px; 
+    color: #ed5c01;
+    display: inline-block;
+    margin-top: 20px; 
+    text-decoration: none; 
+}
+
+.join .booknow:hover {
+    background-color: whitesmoke; 
+}
+
+nav .signup:hover {
+    background-color: whitesmoke;
+    text-decoration: none;
+}
+
+footer {
+    background-color: #333;
+    color: #ffffff;
+    padding: 20px 0;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.footer-section {
+    flex: 0.1;
+}
+
+.footer-section h3 {
+    margin-bottom: 10px;
+    color: #ebe3cc;
+}
+
+.footer-section ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin: 5px 0;
+}
+
+.footer-section ul li a {
+    color: #ffffff; 
+}
+
+.footer-section ul li a:hover {
+    text-decoration: underline;
+}
+
+.footer-bottom {
+    text-align: center;
+}
